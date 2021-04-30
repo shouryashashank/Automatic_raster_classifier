@@ -3,14 +3,14 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=automatic classifier
+name=Automatic Classifier
 qgisMinimumVersion=3.0
-description=deep learning based classifier
+description=Deep learning based classifier. By SHOURYA SHASHANK
 version=0.6
 author=Shourya Shashank
 email=shouryashashank@gmail.com
 
-about=Provide a brief description of the plugin and its purpose.
+about=deep learning and K mean based classifier.Semantic segmentation is one of the fundamental research in remote sensing image processing. Because of the complex environment, a fully unsupervised segmentation and classification is a challenging task.  Although the neural network has achieved excellent performance in semantic segmentation in the previous years, But due to extremely large size of geological image and complexity and interference in multiple bands it is quite difficult to perform deep learning based segmentation and classification because of the current hardware limitations. This project aims to solve that very problem by down sampling the image band space by K-means clustering to get pixel level classification
 
 tracker=https://github.com/shouryashashank/Automatic_raster_classifier/issues
 repository=https://github.com/shouryashashank/Automatic_raster_classifier   
